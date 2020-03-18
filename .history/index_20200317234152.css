@@ -1,0 +1,21 @@
+.aside-container {
+  background: #332a7b;
+}
+.active-nav {
+  position: relative;
+  background:white;
+  color: #332a7b;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.active-nav:before {
+  position: absolute;
+  content: '';
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  top: -30px;
+  right: 0;
+  background: #332a7b;
+}

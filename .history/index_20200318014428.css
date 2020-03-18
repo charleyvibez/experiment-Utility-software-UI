@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.aside-container {
+  background: #332a7b;
+}
+.active-nav {
+  position: relative;
+  background:white;
+  color: #332a7b;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+/* .active-nav:before {
+  position: absolute;
+  content: '';
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  top: -25px;
+  right: 0;
+  background: #332a7b;
+} */
+
+.rounded-xl {
+  border-radius: 20px
+}
+.rounded-semi-xl {
+  border-radius: 14px
+}
+
+.bi
+
+.yellow-bg {
+  background: #ffbf00;
+}
+.yellow-text-support {
+  color: #fff1c5
+}
+
+.day {
+  border-radius: 14px;
+}
+
+.active-day {
+  background: #ff6c7d;
+  border: 1px solid #ff6173
+}
+
+.active-day h3 {
+  color: white;
+  ;
+}
+.active-day .day-number {
+  color: #ffbec6;
+}
+.active-day .day-indicator {
+  background: white;
+}
